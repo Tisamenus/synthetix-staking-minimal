@@ -1,14 +1,5 @@
-# Peppersec project template [![Build Status](https://github.com/peppersec/project-template/workflows/build/badge.svg)](https://github.com/peppersec/project-template/actions)
+# synthetix-staking-minimal
 
-## Dependencies
+Synthetix StakingRewards copy/pasted for 0.6.X solidity (interface removed).
 
-1. node 14
-2. yarn
-
-## Start
-
-```bash
-$ yarn
-$ cp .env.example .env
-$ yarn start
-```
+New formatting.
