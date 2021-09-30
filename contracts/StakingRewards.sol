@@ -144,7 +144,7 @@ contract StakingRewards is RewardsDistributionRecipient, ReentrancyGuard, Pausab
 
   /* ========== MODIFIERS ========== */
 
-  modifier updateReward(address account) {
+  modifier updateReward(address account) virtual {
     rewardPerTokenStored = rewardPerToken();
     lastUpdateTime = lastTimeRewardApplicable();
     if (account != address(0)) {
